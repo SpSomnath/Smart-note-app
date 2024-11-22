@@ -1,0 +1,11 @@
+
+
+project initialized 
+front-end : 
+    npm create vite@latest
+    cd smart-note 
+    npm install 
+
+
+back-end : 
+    
