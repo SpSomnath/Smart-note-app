@@ -7,5 +7,20 @@ front-end :
     npm install 
 
 
+    additional:
+        npm install -D tailwindcss postcss aoutoprefixer
+
+        npx tailwindcss init -p  // initialized tailwind css 
+
+        npx shadcn@latest init   // sadcn component initialized
+
+        npm i @types/node
+
+        npx shadcn@latest add button
+
+        npm i react-router-dom
+
+        npm install @mantine/core @mantine/hooks
+
 back-end : 
     
