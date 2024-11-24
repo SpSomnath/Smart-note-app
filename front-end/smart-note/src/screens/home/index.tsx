@@ -1,7 +1,7 @@
 import {useEffect, useRef, useState} from 'react'
 
 
-export default function home() {
+export default function Home() {
     const canvasRef = useRef<HTMLCanvasElement>(null);
     const [isDrawing, setIsDrawing] = useState(false);
 
@@ -59,13 +59,17 @@ export default function home() {
         
     
     return (
+        <>
+        <h1>hello world</h1>
         < canvas
         ref = {canvasRef}
         id = 'canvaas'
         className='absolute top-0 left-0 w-full h-full'
         onMouseDown={startDrawing}
+        onMouseMove={draw}
         onMouseOut={stopDrawing}
-        onMouseUp={startDrawing}
+        onMouseUp={stopDrawing}
         />
+        </>
     )
 }
