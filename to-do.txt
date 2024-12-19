@@ -22,5 +22,9 @@ front-end :
 
         npm install @mantine/core @mantine/hooks
 
+        touch constant.ts
+
+        npm i axios
+
 back-end : 
     
