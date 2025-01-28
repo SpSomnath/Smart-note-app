@@ -1,4 +1,4 @@
-#!/Users/spsomnath/Desktop/Smart-note-app/venv/bin/python3
+#!/Users/spsomnath/Desktop/Smart-note-app/back-end/venv/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys
